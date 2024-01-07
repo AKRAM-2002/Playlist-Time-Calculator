@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Playlist Time Calculator",
+    "version": "1.0",
+    "description": "Calculate total time of YouTube playlists, additional features.",
+    "permissions": ["activeTab"],
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "Click to view playlist details"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "icons": {
+      "48": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  

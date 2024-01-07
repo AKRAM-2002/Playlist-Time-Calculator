@@ -1,0 +1,27 @@
+body {
+    width: 200px;
+    padding: 10px;
+  }
+  
+  #total-time {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  #goal-setting {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-right: 5px;
+  }
+  
+  input {
+    width: 50px;
+  }
+  
+  #progress-tracking,
+  #reminders {
+    
+  }
+  
